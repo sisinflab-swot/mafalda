@@ -1,0 +1,2826 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://sisinflab.poliba.it/owl/mafalda-nr"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://sisinflab.poliba.it/owl/mafalda-nr"
+     versionIRI="http://sisinflab.poliba.it/owl/mafalda-nr/1.0.0">
+    <Prefix name="" IRI="http://sisinflab.poliba.it/owl/mafalda-nr"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="daml" IRI="http://www.daml.org/2001/03/daml+oil#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">KB modeling based on Number Restrictions</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MAtchmaking Features for mAchine Learning DataAnalisys</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#High_Throttle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal_PostOxy2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_2_MAP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_Low_Speed_Med"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uneven_Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Selected_Gear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Signus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Even_Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ascent_Slope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unclassified_Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_Low_Temp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Load_Engine_Sens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abnormal_PreOxy1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speed_Sens_Variance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ligth_Climb"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_3_Load"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_1_IAT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_4_MAP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistanceCovered"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ESP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_SpeedVariance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_2_Load"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Avail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Ratio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Ratio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSafety_DeviceSurface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Cons"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensorY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Temp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_6_MAP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal_PostOxy1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_7_RPM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_3_IAT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_1_MAF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_4_RPM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_8_Load"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_MAF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fuel_Availability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensorZ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alert_State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_SpeedVariance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Temp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal_High_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_1_Load"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Safety_Device"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpeedVariance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ligth_Slope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_5_MAF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breaking_Soft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Driver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fuel_AverageConsumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_SpeedVariance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostOxy1_Sens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAP_Sens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_6_MAF"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_TLRatio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_3_RPM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ABS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AltitudeVar_Sens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Acc_Z"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Acc_Z"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Cons"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_sign"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_MAP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aggressive_Style"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_2_RPM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAF_Sens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreOxy2_Sens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breaking_Abrupt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_5_IAT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Speed_Med"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCompass_Osc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Dec_Z"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speed_Sens_Med"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fuel_Consumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Dist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_8_RPM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speed_Sens_Var"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cloudy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal_Speed_Med"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreOxy1_Sens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Dist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Gravity_neg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Osc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary_Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Emission"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSafety_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostOxy2_Sens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road_Slope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_2_IAT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal_Speed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_PostOxy1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Gravity_neg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Dec_Z"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tertiary_Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal_PreOxy2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_High_Speed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_PostOxy2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Descent_Slope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_4_IAT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_1_MAP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_High_SpeedVariance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_FuelCons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IAT_Sens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snow_Chains"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Gravity_pos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Uneven_Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regular_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Traffic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal_PreOxy1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_FuelCons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Gear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Avail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fog_Lamp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal_High_Speed_Med"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCovered_Distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Throttle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_Low_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_6_IAT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Gravity_pos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_Traffic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_SpeedMed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burst_of_speed"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_4_MAF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_3_MAP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_1_RPM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal_Temp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wind"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_RPM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dangerous_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_High_FuelCons"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_Altitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_7_MAF"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSlopeGear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_Low_SpeedVariance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensorY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tired_State"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpeedVar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_7_Load"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Emission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acceleration_Soft"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slope"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_PreOxy1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_FuelCons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_Temp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_5_RPM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compass_Osc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_4_Load"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Even_Pace_Style"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road_Surface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speed_Sens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Driving_Style"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_3_MAF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_High_Temp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_6_RPM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Wind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weak_Wind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coolant_Temp_Sens"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_IAT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_FuelCons"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRoad_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_8_MAF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abnormal_PostOxy1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_6_Load"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_High_Speed_Med"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_5_MAP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Osc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Right_Gear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Throttle_Sens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abnormal_PreOxy2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RPM_Sens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primary_Road"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_RPMBehav"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Speed_Med"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_2_MAF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_Low_FuelCons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThrottleLoad_Ratio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_LoadEng"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Level_5_Load"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abnormal_PostOxy2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensorZ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Traffic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor_PreOxy2"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Acceleration_Soft"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpeedVar"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="0">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="20">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Plus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Alert_State"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#State"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasCovered_Distance"/>
+                <Class IRI="#Low_Dist"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasTime"/>
+                <Class IRI="#Low_Time"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AltitudeVar_Sens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSensor_Altitude"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Breaking_Abrupt"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpeedVar"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="7">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="30">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Minus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Breaking_Soft"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpeedVar"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="6">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Minus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Burst_of_speed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpeedVar"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="21">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="30">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Plus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Climb"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSensor_Altitude"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Plus"/>
+                </ObjectAllValuesFrom>
+                <ObjectMinCardinality cardinality="7">
+                    <ObjectProperty IRI="#hasVar"/>
+                </ObjectMinCardinality>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fog"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Weather"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSafety_Device"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#ABS"/>
+                    <Class IRI="#Fog_Lamp"/>
+                </ObjectIntersectionOf>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_Speed"/>
+                <Class IRI="#Low_Speed"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_Acc_Z"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSensorZ"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="3">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="20">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Plus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_Avail"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Fuel_Availability"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_FuelCons"/>
+                <Class IRI="#High_FuelCons"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_Dec_Z"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSensorZ"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="3">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="20">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Minus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_FuelCons"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Fuel_AverageConsumption"/>
+            <ObjectMinCardinality cardinality="51">
+                <ObjectProperty IRI="#hasSensor_FuelCons"/>
+            </ObjectMinCardinality>
+            <ObjectMaxCardinality cardinality="99">
+                <ObjectProperty IRI="#hasSensor_FuelCons"/>
+            </ObjectMaxCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_Gravity_neg"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSensorY"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="2">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="30">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Minus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_Gravity_pos"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSensorY"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="2">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="30">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Plus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_Speed"/>
+        <ObjectMinCardinality cardinality="111">
+            <ObjectProperty IRI="#hasSensor_Speed"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_Speed"/>
+        <ObjectMaxCardinality cardinality="130">
+            <ObjectProperty IRI="#hasSensor_Speed"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_SpeedVariance"/>
+        <ObjectMinCardinality cardinality="601">
+            <ObjectProperty IRI="#hasSpeedVariance"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_SpeedVariance"/>
+        <ObjectMaxCardinality cardinality="1000">
+            <ObjectProperty IRI="#hasSpeedVariance"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_Speed_Med"/>
+        <ObjectMinCardinality cardinality="111">
+            <ObjectProperty IRI="#hasSensor_SpeedMed"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_Speed_Med"/>
+        <ObjectMaxCardinality cardinality="130">
+            <ObjectProperty IRI="#hasSensor_SpeedMed"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_Temp"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Coolant_Temp_Sens"/>
+            <ObjectMinCardinality cardinality="86">
+                <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+            </ObjectMinCardinality>
+            <ObjectMaxCardinality cardinality="90">
+                <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+            </ObjectMaxCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_Traffic"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Traffic"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSafety_Device"/>
+                <Class IRI="#ABS"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_Speed"/>
+                <Class IRI="#Low_Speed"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_Wind"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Wind"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_Speed"/>
+                <Class IRI="#Low_Speed"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_1_IAT"/>
+        <ObjectMaxCardinality cardinality="20">
+            <ObjectProperty IRI="#hasSensor_IAT"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_1_Load"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_1_Load"/>
+        <ObjectMaxCardinality cardinality="20">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_1_MAF"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_1_MAF"/>
+        <ObjectMaxCardinality cardinality="10">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_1_MAP"/>
+        <ObjectMaxCardinality cardinality="100">
+            <ObjectProperty IRI="#hasSensor_MAP"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_1_RPM"/>
+        <ObjectMaxCardinality cardinality="800">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_2_IAT"/>
+        <ObjectMinCardinality cardinality="21">
+            <ObjectProperty IRI="#hasSensor_IAT"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_2_IAT"/>
+        <ObjectMaxCardinality cardinality="30">
+            <ObjectProperty IRI="#hasSensor_IAT"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_2_Load"/>
+        <ObjectMinCardinality cardinality="21">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_2_Load"/>
+        <ObjectMaxCardinality cardinality="30">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_2_MAF"/>
+        <ObjectMinCardinality cardinality="11">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_2_MAF"/>
+        <ObjectMaxCardinality cardinality="20">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_2_MAP"/>
+        <ObjectMinCardinality cardinality="101">
+            <ObjectProperty IRI="#hasSensor_MAP"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_2_MAP"/>
+        <ObjectMaxCardinality cardinality="110">
+            <ObjectProperty IRI="#hasSensor_MAP"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_2_RPM"/>
+        <ObjectMinCardinality cardinality="801">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_2_RPM"/>
+        <ObjectMaxCardinality cardinality="900">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_3_IAT"/>
+        <ObjectMinCardinality cardinality="31">
+            <ObjectProperty IRI="#hasSensor_IAT"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_3_IAT"/>
+        <ObjectMaxCardinality cardinality="40">
+            <ObjectProperty IRI="#hasSensor_IAT"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_3_Load"/>
+        <ObjectMinCardinality cardinality="31">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_3_Load"/>
+        <ObjectMaxCardinality cardinality="50">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_3_MAF"/>
+        <ObjectMinCardinality cardinality="21">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_3_MAF"/>
+        <ObjectMaxCardinality cardinality="30">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_3_MAP"/>
+        <ObjectMinCardinality cardinality="111">
+            <ObjectProperty IRI="#hasSensor_MAP"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_3_MAP"/>
+        <ObjectMaxCardinality cardinality="120">
+            <ObjectProperty IRI="#hasSensor_MAP"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_3_RPM"/>
+        <ObjectMinCardinality cardinality="901">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_3_RPM"/>
+        <ObjectMaxCardinality cardinality="1000">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_4_IAT"/>
+        <ObjectMinCardinality cardinality="41">
+            <ObjectProperty IRI="#hasSensor_IAT"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_4_IAT"/>
+        <ObjectMaxCardinality cardinality="50">
+            <ObjectProperty IRI="#hasSensor_IAT"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_4_Load"/>
+        <ObjectMinCardinality cardinality="51">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_4_Load"/>
+        <ObjectMaxCardinality cardinality="60">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_4_MAF"/>
+        <ObjectMinCardinality cardinality="31">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_4_MAF"/>
+        <ObjectMaxCardinality cardinality="40">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_4_MAP"/>
+        <ObjectMinCardinality cardinality="121">
+            <ObjectProperty IRI="#hasSensor_MAP"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_4_MAP"/>
+        <ObjectMaxCardinality cardinality="130">
+            <ObjectProperty IRI="#hasSensor_MAP"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_4_RPM"/>
+        <ObjectMinCardinality cardinality="1001">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_4_RPM"/>
+        <ObjectMaxCardinality cardinality="1500">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_5_IAT"/>
+        <ObjectMinCardinality cardinality="51">
+            <ObjectProperty IRI="#hasSensor_IAT"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_5_IAT"/>
+        <ObjectMaxCardinality cardinality="60">
+            <ObjectProperty IRI="#hasSensor_IAT"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_5_Load"/>
+        <ObjectMinCardinality cardinality="61">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_5_Load"/>
+        <ObjectMaxCardinality cardinality="70">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_5_MAF"/>
+        <ObjectMinCardinality cardinality="41">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_5_MAF"/>
+        <ObjectMaxCardinality cardinality="50">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_5_MAP"/>
+        <ObjectMinCardinality cardinality="131">
+            <ObjectProperty IRI="#hasSensor_MAP"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_5_MAP"/>
+        <ObjectMaxCardinality cardinality="140">
+            <ObjectProperty IRI="#hasSensor_MAP"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_5_RPM"/>
+        <ObjectMinCardinality cardinality="1501">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_5_RPM"/>
+        <ObjectMaxCardinality cardinality="2000">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_6_IAT"/>
+        <ObjectMinCardinality cardinality="61">
+            <ObjectProperty IRI="#hasSensor_IAT"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_6_Load"/>
+        <ObjectMinCardinality cardinality="71">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_6_Load"/>
+        <ObjectMaxCardinality cardinality="80">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_6_MAF"/>
+        <ObjectMinCardinality cardinality="51">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_6_MAF"/>
+        <ObjectMaxCardinality cardinality="60">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_6_MAP"/>
+        <ObjectMinCardinality cardinality="141">
+            <ObjectProperty IRI="#hasSensor_MAP"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_6_RPM"/>
+        <ObjectMinCardinality cardinality="2001">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_6_RPM"/>
+        <ObjectMaxCardinality cardinality="2500">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_7_Load"/>
+        <ObjectMinCardinality cardinality="81">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_7_Load"/>
+        <ObjectMaxCardinality cardinality="90">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_7_MAF"/>
+        <ObjectMinCardinality cardinality="61">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_7_MAF"/>
+        <ObjectMaxCardinality cardinality="70">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_7_RPM"/>
+        <ObjectMinCardinality cardinality="2501">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_7_RPM"/>
+        <ObjectMaxCardinality cardinality="3000">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_8_Load"/>
+        <ObjectMinCardinality cardinality="91">
+            <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_8_MAF"/>
+        <ObjectMinCardinality cardinality="71">
+            <ObjectProperty IRI="#hasSensor_MAF"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Level_8_RPM"/>
+        <ObjectMinCardinality cardinality="3001">
+            <ObjectProperty IRI="#hasSensor_RPM"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ligth_Climb"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSensor_Altitude"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="0">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="6">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Plus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ligth_Slope"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSensor_Altitude"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="6">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Minus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_Acc_Z"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSensorZ"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="0">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="2">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Plus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_Cons"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Fuel_Consumption"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+                <Class IRI="#Normal_Temp"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_MAF"/>
+                <Class IRI="#Level_2_MAF"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_RPM"/>
+                <Class IRI="#Level_1_RPM"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_Dec_Z"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSensorZ"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="2">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Minus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_Emission"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Emission"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_PostOxy1"/>
+                <Class IRI="#Normal_PostOxy1"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_PreOxy1"/>
+                <Class IRI="#Normal_PreOxy1"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_FuelCons"/>
+        <ObjectMinCardinality cardinality="36">
+            <ObjectProperty IRI="#hasSensor_FuelCons"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_FuelCons"/>
+        <ObjectMaxCardinality cardinality="40">
+            <ObjectProperty IRI="#hasSensor_FuelCons"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_Gravity_neg"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSensorY"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Minus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_Gravity_pos"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSensorY"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="0">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMinCardinality>
+                    <ObjectMaxCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasVar"/>
+                    </ObjectMaxCardinality>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Plus"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_Speed"/>
+        <ObjectMinCardinality cardinality="11">
+            <ObjectProperty IRI="#hasSensor_Speed"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_Speed"/>
+        <ObjectMaxCardinality cardinality="50">
+            <ObjectProperty IRI="#hasSensor_Speed"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_SpeedVariance"/>
+        <ObjectMinCardinality cardinality="51">
+            <ObjectProperty IRI="#hasSpeedVariance"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_SpeedVariance"/>
+        <ObjectMaxCardinality cardinality="300">
+            <ObjectProperty IRI="#hasSpeedVariance"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_Speed_Med"/>
+        <ObjectMinCardinality cardinality="11">
+            <ObjectProperty IRI="#hasSensor_SpeedMed"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_Speed_Med"/>
+        <ObjectMaxCardinality cardinality="50">
+            <ObjectProperty IRI="#hasSensor_SpeedMed"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_Temp"/>
+        <ObjectMinCardinality cardinality="61">
+            <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Low_Temp"/>
+        <ObjectMaxCardinality cardinality="70">
+            <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Medium_FuelCons"/>
+        <ObjectMinCardinality cardinality="41">
+            <ObjectProperty IRI="#hasSensor_FuelCons"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Medium_FuelCons"/>
+        <ObjectMaxCardinality cardinality="50">
+            <ObjectProperty IRI="#hasSensor_FuelCons"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Medium_SpeedVariance"/>
+        <ObjectMinCardinality cardinality="301">
+            <ObjectProperty IRI="#hasSpeedVariance"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Medium_SpeedVariance"/>
+        <ObjectMaxCardinality cardinality="600">
+            <ObjectProperty IRI="#hasSpeedVariance"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Medium_Temp"/>
+        <ObjectMinCardinality cardinality="71">
+            <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Medium_Temp"/>
+        <ObjectMaxCardinality cardinality="80">
+            <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Normal_High_Speed"/>
+        <ObjectMinCardinality cardinality="91">
+            <ObjectProperty IRI="#hasSensor_Speed"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Normal_High_Speed"/>
+        <ObjectMaxCardinality cardinality="110">
+            <ObjectProperty IRI="#hasSensor_Speed"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Normal_High_Speed_Med"/>
+        <ObjectMinCardinality cardinality="91">
+            <ObjectProperty IRI="#hasSensor_SpeedMed"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Normal_High_Speed_Med"/>
+        <ObjectMaxCardinality cardinality="110">
+            <ObjectProperty IRI="#hasSensor_SpeedMed"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Normal_Speed"/>
+        <ObjectMinCardinality cardinality="51">
+            <ObjectProperty IRI="#hasSensor_Speed"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Normal_Speed"/>
+        <ObjectMaxCardinality cardinality="90">
+            <ObjectProperty IRI="#hasSensor_Speed"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Normal_Speed_Med"/>
+        <ObjectMinCardinality cardinality="51">
+            <ObjectProperty IRI="#hasSensor_SpeedMed"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Normal_Speed_Med"/>
+        <ObjectMaxCardinality cardinality="90">
+            <ObjectProperty IRI="#hasSensor_SpeedMed"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Normal_Temp"/>
+        <ObjectMinCardinality cardinality="81">
+            <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Normal_Temp"/>
+        <ObjectMaxCardinality cardinality="85">
+            <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rain"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Weather"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSafety_Device"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#ABS"/>
+                    <Class IRI="#ESP"/>
+                </ObjectIntersectionOf>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_Speed"/>
+                <Class IRI="#Low_Speed"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Regular_Behaviour"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Behaviour"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasCompass_Osc"/>
+                <Class IRI="#Low_Osc"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasRoad_Type"/>
+                <Class IRI="#Unclassified_Road"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_RPMBehav"/>
+                <Class IRI="#Level_2_RPM"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_Speed"/>
+                <Class IRI="#Low_Speed"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Right_Gear"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Selected_Gear"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_RPM"/>
+                <Class IRI="#Level_1_RPM"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_TLRatio"/>
+                <Class IRI="#Low_Ratio"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSlopeGear"/>
+                <Class IRI="#Descent_Slope"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SensorY"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSensorY"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SensorZ"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSensorZ"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Slope"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSensor_Altitude"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class abbreviatedIRI="owl:Thing"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_sign"/>
+                    <Class IRI="#Minus"/>
+                </ObjectAllValuesFrom>
+                <ObjectMinCardinality cardinality="7">
+                    <ObjectProperty IRI="#hasVar"/>
+                </ObjectMinCardinality>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Snow"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Weather"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSafety_Device"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#ABS"/>
+                    <Class IRI="#ESP"/>
+                    <Class IRI="#Snow_Chains"/>
+                </ObjectIntersectionOf>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_Speed"/>
+                <Class IRI="#Low_Speed"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Speed_Sens_Var"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeedVar"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Uneven_Road"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Road_Surface"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSafety_Device"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#ABS"/>
+                    <Class IRI="#ESP"/>
+                </ObjectIntersectionOf>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSensor_Speed"/>
+                <Class IRI="#Low_Speed"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_High_FuelCons"/>
+        <ObjectMinCardinality cardinality="100">
+            <ObjectProperty IRI="#hasSensor_FuelCons"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_High_Speed"/>
+        <ObjectMinCardinality cardinality="131">
+            <ObjectProperty IRI="#hasSensor_Speed"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_High_SpeedVariance"/>
+        <ObjectMinCardinality cardinality="1001">
+            <ObjectProperty IRI="#hasSpeedVariance"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_High_Speed_Med"/>
+        <ObjectMinCardinality cardinality="131">
+            <ObjectProperty IRI="#hasSensor_SpeedMed"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_High_Temp"/>
+        <ObjectMinCardinality cardinality="91">
+            <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_Low_FuelCons"/>
+        <ObjectMaxCardinality cardinality="35">
+            <ObjectProperty IRI="#hasSensor_FuelCons"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_Low_Speed"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty IRI="#hasSensor_Speed"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_Low_Speed"/>
+        <ObjectMaxCardinality cardinality="10">
+            <ObjectProperty IRI="#hasSensor_Speed"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_Low_SpeedVariance"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty IRI="#hasSpeedVariance"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_Low_SpeedVariance"/>
+        <ObjectMaxCardinality cardinality="50">
+            <ObjectProperty IRI="#hasSpeedVariance"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_Low_Speed_Med"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty IRI="#hasSensor_SpeedMed"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_Low_Speed_Med"/>
+        <ObjectMaxCardinality cardinality="10">
+            <ObjectProperty IRI="#hasSensor_SpeedMed"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_Low_Temp"/>
+        <ObjectMaxCardinality cardinality="60">
+            <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#ABS"/>
+        <Class IRI="#Safety_Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abnormal_PostOxy1"/>
+        <Class IRI="#PostOxy1_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abnormal_PostOxy2"/>
+        <Class IRI="#PostOxy2_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abnormal_PreOxy1"/>
+        <Class IRI="#PreOxy1_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abnormal_PreOxy2"/>
+        <Class IRI="#PreOxy2_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acceleration_Soft"/>
+        <Class IRI="#Speed_Sens_Var"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aggressive_Style"/>
+        <Class IRI="#Driving_Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alert_State"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AltitudeVar_Sens"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ascent_Slope"/>
+        <Class IRI="#Road_Slope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behaviour"/>
+        <Class IRI="#Driver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breaking_Abrupt"/>
+        <Class IRI="#Speed_Sens_Var"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breaking_Soft"/>
+        <Class IRI="#Speed_Sens_Var"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burst_of_speed"/>
+        <Class IRI="#Speed_Sens_Var"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clear"/>
+        <Class IRI="#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climb"/>
+        <Class IRI="#AltitudeVar_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cloudy"/>
+        <Class IRI="#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compass_Osc"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coolant_Temp_Sens"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dangerous_Behaviour"/>
+        <Class IRI="#Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Descent_Slope"/>
+        <Class IRI="#Road_Slope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistanceCovered"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Driver"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Driving_Style"/>
+        <Class IRI="#Driver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ESP"/>
+        <Class IRI="#Safety_Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emission"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Even_Pace_Style"/>
+        <Class IRI="#Driving_Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Even_Road"/>
+        <Class IRI="#Road_Surface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fog"/>
+        <Class IRI="#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fog_Lamp"/>
+        <Class IRI="#Safety_Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fuel_Availability"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fuel_AverageConsumption"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fuel_Consumption"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Acc_Z"/>
+        <Class IRI="#SensorZ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Avail"/>
+        <Class IRI="#Fuel_Availability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Cons"/>
+        <Class IRI="#Fuel_Consumption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Dec_Z"/>
+        <Class IRI="#SensorZ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Dist"/>
+        <Class IRI="#DistanceCovered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Emission"/>
+        <Class IRI="#Emission"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_FuelCons"/>
+        <Class IRI="#Fuel_AverageConsumption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Gravity_neg"/>
+        <Class IRI="#SensorY"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Gravity_pos"/>
+        <Class IRI="#SensorY"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Osc"/>
+        <Class IRI="#Compass_Osc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Ratio"/>
+        <Class IRI="#ThrottleLoad_Ratio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Speed"/>
+        <Class IRI="#Speed_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_SpeedVariance"/>
+        <Class IRI="#Speed_Sens_Variance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Speed_Med"/>
+        <Class IRI="#Speed_Sens_Med"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Temp"/>
+        <Class IRI="#Coolant_Temp_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Throttle"/>
+        <Class IRI="#Throttle_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Time"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Traffic"/>
+        <Class IRI="#Traffic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Wind"/>
+        <Class IRI="#Wind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IAT_Sens"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_1_IAT"/>
+        <Class IRI="#IAT_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_1_Load"/>
+        <Class IRI="#Load_Engine_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_1_MAF"/>
+        <Class IRI="#MAF_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_1_MAP"/>
+        <Class IRI="#MAP_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_1_RPM"/>
+        <Class IRI="#RPM_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_2_IAT"/>
+        <Class IRI="#IAT_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_2_Load"/>
+        <Class IRI="#Load_Engine_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_2_MAF"/>
+        <Class IRI="#MAF_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_2_MAP"/>
+        <Class IRI="#MAP_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_2_RPM"/>
+        <Class IRI="#RPM_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_3_IAT"/>
+        <Class IRI="#IAT_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_3_Load"/>
+        <Class IRI="#Load_Engine_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_3_MAF"/>
+        <Class IRI="#MAF_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_3_MAP"/>
+        <Class IRI="#MAP_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_3_RPM"/>
+        <Class IRI="#RPM_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_4_IAT"/>
+        <Class IRI="#IAT_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_4_Load"/>
+        <Class IRI="#Load_Engine_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_4_MAF"/>
+        <Class IRI="#MAF_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_4_MAP"/>
+        <Class IRI="#MAP_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_4_RPM"/>
+        <Class IRI="#RPM_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_5_IAT"/>
+        <Class IRI="#IAT_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_5_Load"/>
+        <Class IRI="#Load_Engine_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_5_MAF"/>
+        <Class IRI="#MAF_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_5_MAP"/>
+        <Class IRI="#MAP_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_5_RPM"/>
+        <Class IRI="#RPM_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_6_IAT"/>
+        <Class IRI="#IAT_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_6_Load"/>
+        <Class IRI="#Load_Engine_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_6_MAF"/>
+        <Class IRI="#MAF_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_6_MAP"/>
+        <Class IRI="#MAP_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_6_RPM"/>
+        <Class IRI="#RPM_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_7_Load"/>
+        <Class IRI="#Load_Engine_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_7_MAF"/>
+        <Class IRI="#MAF_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_7_RPM"/>
+        <Class IRI="#RPM_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_8_Load"/>
+        <Class IRI="#Load_Engine_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_8_MAF"/>
+        <Class IRI="#MAF_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Level_8_RPM"/>
+        <Class IRI="#RPM_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ligth_Climb"/>
+        <Class IRI="#AltitudeVar_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ligth_Slope"/>
+        <Class IRI="#AltitudeVar_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Load_Engine_Sens"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Acc_Z"/>
+        <Class IRI="#SensorZ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Avail"/>
+        <Class IRI="#Fuel_Availability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Cons"/>
+        <Class IRI="#Fuel_Consumption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Dec_Z"/>
+        <Class IRI="#SensorZ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Dist"/>
+        <Class IRI="#DistanceCovered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Emission"/>
+        <Class IRI="#Emission"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_FuelCons"/>
+        <Class IRI="#Fuel_AverageConsumption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Gravity_neg"/>
+        <Class IRI="#SensorY"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Gravity_pos"/>
+        <Class IRI="#SensorY"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Osc"/>
+        <Class IRI="#Compass_Osc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Ratio"/>
+        <Class IRI="#ThrottleLoad_Ratio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Speed"/>
+        <Class IRI="#Speed_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_SpeedVariance"/>
+        <Class IRI="#Speed_Sens_Variance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Speed_Med"/>
+        <Class IRI="#Speed_Sens_Med"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Temp"/>
+        <Class IRI="#Coolant_Temp_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Throttle"/>
+        <Class IRI="#Throttle_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Time"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Traffic"/>
+        <Class IRI="#Traffic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Uneven_Road"/>
+        <Class IRI="#Road_Surface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAF_Sens"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAP_Sens"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_FuelCons"/>
+        <Class IRI="#Fuel_AverageConsumption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_SpeedVariance"/>
+        <Class IRI="#Speed_Sens_Variance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_Temp"/>
+        <Class IRI="#Coolant_Temp_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_Traffic"/>
+        <Class IRI="#Traffic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minus"/>
+        <Class IRI="#Signus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal_High_Speed"/>
+        <Class IRI="#Speed_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal_High_Speed_Med"/>
+        <Class IRI="#Speed_Sens_Med"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal_PostOxy1"/>
+        <Class IRI="#PostOxy1_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal_PostOxy2"/>
+        <Class IRI="#PostOxy2_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal_PreOxy1"/>
+        <Class IRI="#PreOxy1_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal_PreOxy2"/>
+        <Class IRI="#PreOxy2_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal_Speed"/>
+        <Class IRI="#Speed_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal_Speed_Med"/>
+        <Class IRI="#Speed_Sens_Med"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal_Temp"/>
+        <Class IRI="#Coolant_Temp_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plus"/>
+        <Class IRI="#Signus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostOxy1_Sens"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostOxy2_Sens"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreOxy1_Sens"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreOxy2_Sens"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary_Road"/>
+        <Class IRI="#Road_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RPM_Sens"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rain"/>
+        <Class IRI="#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular_Behaviour"/>
+        <Class IRI="#Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Right_Gear"/>
+        <Class IRI="#Selected_Gear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road_Slope"/>
+        <Class IRI="#Road"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road_Surface"/>
+        <Class IRI="#Road"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road_Type"/>
+        <Class IRI="#Road"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Safety_Device"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary_Road"/>
+        <Class IRI="#Road_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Selected_Gear"/>
+        <Class IRI="#Driver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensorY"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensorZ"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensors"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Signus"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slope"/>
+        <Class IRI="#AltitudeVar_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snow"/>
+        <Class IRI="#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snow_Chains"/>
+        <Class IRI="#Safety_Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speed_Sens"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speed_Sens_Med"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speed_Sens_Var"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speed_Sens_Variance"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="#Driver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tertiary_Road"/>
+        <Class IRI="#Road_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThrottleLoad_Ratio"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Throttle_Sens"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tired_State"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unclassified_Road"/>
+        <Class IRI="#Road_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uneven_Road"/>
+        <Class IRI="#Road_Surface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehicle"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_High_FuelCons"/>
+        <Class IRI="#Fuel_AverageConsumption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_High_Speed"/>
+        <Class IRI="#Speed_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_High_SpeedVariance"/>
+        <Class IRI="#Speed_Sens_Variance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_High_Speed_Med"/>
+        <Class IRI="#Speed_Sens_Med"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_High_Temp"/>
+        <Class IRI="#Coolant_Temp_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_Low_FuelCons"/>
+        <Class IRI="#Fuel_AverageConsumption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_Low_Speed"/>
+        <Class IRI="#Speed_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_Low_SpeedVariance"/>
+        <Class IRI="#Speed_Sens_Variance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_Low_Speed_Med"/>
+        <Class IRI="#Speed_Sens_Med"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_Low_Temp"/>
+        <Class IRI="#Coolant_Temp_Sens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weak_Wind"/>
+        <Class IRI="#Wind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weather"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wind"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Gear"/>
+        <Class IRI="#Selected_Gear"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Minus"/>
+        <Class IRI="#Plus"/>
+    </DisjointClasses>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRoad_Type"/>
+        <Class IRI="#Road"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSafety_Device"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSafety_DeviceSurface"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor_FuelCons"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor_IAT"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor_MAF"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor_PostOxy1"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor_PostOxy2"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor_PreOxy1"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor_PreOxy2"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor_RPM"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor_RPMBehav"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor_Speed"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor_TLRatio"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSlopeGear"/>
+        <Class IRI="#Road"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTime"/>
+        <Class IRI="#Time"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCompass_Osc"/>
+        <Class IRI="#Compass_Osc"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCovered_Distance"/>
+        <Class IRI="#DistanceCovered"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRoad_Type"/>
+        <Class IRI="#Road_Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSafety_Device"/>
+        <Class IRI="#Safety_Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSafety_DeviceSurface"/>
+        <Class IRI="#Safety_Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensorY"/>
+        <Class IRI="#SensorY"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensorZ"/>
+        <Class IRI="#SensorZ"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_Altitude"/>
+        <Class IRI="#AltitudeVar_Sens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_CoolTemp"/>
+        <Class IRI="#Coolant_Temp_Sens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_FuelCons"/>
+        <Class IRI="#Fuel_AverageConsumption"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_IAT"/>
+        <Class IRI="#IAT_Sens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_LoadEng"/>
+        <Class IRI="#Load_Engine_Sens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_MAF"/>
+        <Class IRI="#MAF_Sens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_MAP"/>
+        <Class IRI="#MAP_Sens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_PostOxy1"/>
+        <Class IRI="#PostOxy1_Sens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_PostOxy2"/>
+        <Class IRI="#PostOxy2_Sens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_PreOxy1"/>
+        <Class IRI="#PreOxy1_Sens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_PreOxy2"/>
+        <Class IRI="#PreOxy2_Sens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_RPM"/>
+        <Class IRI="#RPM_Sens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_RPMBehav"/>
+        <Class IRI="#RPM_Sens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_Speed"/>
+        <Class IRI="#Speed_Sens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_SpeedMed"/>
+        <Class IRI="#Speed_Sens_Med"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor_TLRatio"/>
+        <Class IRI="#ThrottleLoad_Ratio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSlopeGear"/>
+        <Class IRI="#Road_Slope"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpeedVar"/>
+        <Class IRI="#Speed_Sens_Var"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpeedVariance"/>
+        <Class IRI="#Speed_Sens_Variance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTime"/>
+        <Class IRI="#Time"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_sign"/>
+        <Class IRI="#Signus"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
