@@ -14,7 +14,7 @@
 %		 overall system composed by driver, vehicle and environment.
 %    --- Predicted attribute: road surface, traffic and driving style.
 % 
-% 5. Number of Instances: 8632
+% 5. Number of Instances: 4352
 % 
 % 6. Number of Attributes: 14 numeric + 3 predictive attributes
 % 
