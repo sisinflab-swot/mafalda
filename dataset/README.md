@@ -7,7 +7,7 @@ A dedicated dataset was collected for the framework evaluation. A subset of the 
 - Peugeot 207 1.4 HDi (70 CV)
 - Opel Corsa 1.3 HDi (95 CV) 
 
-Collected data consists of:
+Collected data consist of:
 
 - *altitude change*, calculated over 10 seconds;
 - *speed*: current value, average and variance in the last 60 seconds and change in speed for every second of detection;
@@ -25,3 +25,5 @@ Each dataset also contains a label for the following output classes:
 - *Road Surface*: Even, Slightly Uneven, Uneven; 
 - *Traffic*: Low, Medium, High;
 - *Driving Style*: Aggressive, Even Pace.
+
+Data are available both in CSV and [ARFF](http://www.cs.waikato.ac.nz/ml/weka/arff.html "ARFF file format") file format.
