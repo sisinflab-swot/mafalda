@@ -22,8 +22,8 @@ Collected data consist of:
 
 Each dataset also contains a label for the following output classes:
 
-- *Road Surface*: Even, Slightly Uneven, Uneven; 
-- *Traffic*: Low, Medium, High;
+- *Road Surface*: Smooth, Uneven, Full of holes; 
+- *Traffic Congestion*: Low, Normal, High;
 - *Driving Style*: Aggressive, Even Pace.
 
 Data are available both in CSV and [ARFF](http://www.cs.waikato.ac.nz/ml/weka/arff.html "ARFF file format") file format.
