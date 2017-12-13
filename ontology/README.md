@@ -15,7 +15,7 @@ Load the selected ontology with [LODE](http://www.essepuntato.it/lode) for autom
 
 ## WebVOWL
 
-Load the selected ontology with [WebOWL](http://vowl.visualdataweb.org/webvowl.html) for automatic graph visualization: 
+Load the selected ontology with [WebVOWL](http://vowl.visualdataweb.org/webvowl.html) for automatic graph visualization: 
 
 [mafalda-ap](http://visualdataweb.de/webvowl/#iri=https://raw.githubusercontent.com/sisinflab-swot/mafalda/master/ontology/mafalda-ap.owl) 
 
