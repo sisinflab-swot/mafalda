@@ -10,13 +10,13 @@ If you want to refer to _Mafalda_ dataset and ontologies in a publication, pleas
 
 ```
 @article{mafalda-swj18,
-	author 	= {Michele Ruta and Floriano Scioscia and Giuseppe Loseto and Agnese Pinto and Eugenio {Di Sciascio}},
-	title 	= {Machine Learning in the Internet of Things: a Semantic-enhanced Approach},
-	journal = {Semantic Web},
-	year    = 2018,
-	number  = {Pre-press},
-	pages   = {1-22},
-	volume  = {Pre-press}
-	url 	= {http://dx.doi.org/10.3233/SW-180314}
+  title={{Machine learning in the Internet of Things: A semantic-enhanced approach}},
+  author={Ruta, Michele and Scioscia, Floriano and Loseto, Giuseppe and Pinto, Agnese and {Di Sciascio}, Eugenio},
+  journal={Semantic Web},
+  volume={10},
+  number={1},
+  pages={183--204},
+  year={2019},
+  publisher={IOS Press}
 }
 ```
